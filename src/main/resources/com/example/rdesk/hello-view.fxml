@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane rotateGraphic="true" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rdesk.HelloController">
+   <tabs>
+      <Tab closable="false" text="tab1">
+         <content>
+            <VBox alignment="CENTER" prefHeight="251.0" prefWidth="154.0" spacing="20.0">
+                <padding>
+                    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                </padding>
+
+                            <Label fx:id="welcomeText" text="Test Text Label" />
+               <CheckBox fx:id="checkBox1" mnemonicParsing="false" text="CheckBox" />
+                <Button onAction="#onHelloButtonClick" text="Hello!" />
+               <Label fx:id="label1" text="Label" />
+               <TextField fx:id="textField1" />
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+            </VBox>
+         </content>
+      </Tab>
+      <Tab closable="false" text="tab2">
+         <content>
+            <VBox alignment="CENTER" prefHeight="251.0" prefWidth="154.0" spacing="20.0">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label fx:id="welcomeText1" text="Test Text Label" />
+                  <CheckBox fx:id="checkBox11" mnemonicParsing="false" text="CheckBox" />
+                  <Button onAction="#onHelloButtonClick" text="Hello!" />
+                  <Label fx:id="label11" text="Label" />
+                  <TextField fx:id="textField11" />
+               </children>
+            </VBox>
+         </content>
+      </Tab>
+      <Tab closable="false" text="tab3">
+         <content>
+            <VBox alignment="CENTER" prefHeight="251.0" prefWidth="154.0" spacing="20.0">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label fx:id="welcomeText11" text="Test Text Label" />
+                  <CheckBox fx:id="checkBox111" mnemonicParsing="false" text="CheckBox" />
+                  <Button onAction="#onHelloButtonClick" text="Hello!" />
+                  <Label fx:id="label111" text="Label" />
+                  <TextField fx:id="textField111" />
+               </children>
+            </VBox>
+         </content>
+      </Tab>
+      <Tab closable="false" text="tab4">
+         <content>
+            <VBox alignment="CENTER" prefHeight="251.0" prefWidth="154.0" spacing="20.0">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label fx:id="welcomeText111" text="Test Text Label" />
+                  <CheckBox fx:id="checkBox1111" mnemonicParsing="false" text="CheckBox" />
+                  <Button onAction="#onHelloButtonClick" text="Hello!" />
+                  <Label fx:id="label1111" text="Label" />
+                  <TextField fx:id="textField1111" />
+               </children>
+            </VBox>
+         </content>
+      </Tab>
+      <Tab closable="false" text="tab5">
+         <content>
+            <VBox alignment="CENTER" prefHeight="251.0" prefWidth="154.0" spacing="20.0">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label fx:id="welcomeText1111" text="Test Text Label" />
+                  <CheckBox fx:id="checkBox11111" mnemonicParsing="false" text="CheckBox" />
+                  <Button onAction="#onHelloButtonClick" text="Hello!" />
+                  <Label fx:id="label11111" text="Label" />
+                  <TextField fx:id="textField11111" />
+               </children>
+            </VBox>
+         </content>
+      </Tab>
+      <Tab closable="false" text="tab6">
+         <content>
+            <VBox alignment="CENTER" prefHeight="251.0" prefWidth="154.0" spacing="20.0">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <opaqueInsets>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </opaqueInsets>
+               <children>
+                  <Label fx:id="welcomeText11111" text="Test Text Label" />
+                  <CheckBox fx:id="checkBox111111" mnemonicParsing="false" text="CheckBox" />
+                  <Button onAction="#onHelloButtonClick" text="Hello!" />
+                  <Label fx:id="label111111" text="Label" />
+                  <TextField fx:id="textField111111" />
+               </children>
+            </VBox>
+         </content>
+      </Tab>
+   </tabs>
+</TabPane>
